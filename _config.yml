@@ -7,7 +7,7 @@ description: |
   Skylabs NZ invites you to witness nature’s biggest spectacle: <br />
   The universe itself! <br />
   Join us under the stars for a night of stargazing.
-owner: Jordi Blasco # or company name
+owner: Skylabs NZ # or company name
 first_published: 2018 # if migrating another site, the year of your first publish
 email: jordi.blasco@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
