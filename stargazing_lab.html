@@ -49,7 +49,22 @@ title: Stargazing Lab
 			<section>
 				<h4>Upcoming Stargazing Lab Sessions</h4>
 				<div style="width:100%; text-align:left;">
-					<iframe src="https://eventbrite.com/tickets-external?eid=51382373061&ref=etckt" frameborder="0" height="478" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+					<div id="eventbrite-widget-container-87533267359"></div>
+         <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+        <script type="text/javascript">
+            var exampleCallback = function() {
+            console.log('Order complete!');
+            };
+            window.EBWidgets.createWidget({
+            // Required
+            widgetType: 'checkout',
+            eventId: '87533267359',
+           iframeContainerId: 'eventbrite-widget-container-87533267359',
+           // Optional
+           iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+           onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+           });
+          </script>
 				</div>
 			</section>
 			<section>
