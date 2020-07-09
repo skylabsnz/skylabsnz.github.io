@@ -159,6 +159,29 @@ title: Astrophotography Lab
       </section>
 
 			<section>
+				<div id="eventbrite-widget-container-112892025086"></div>
+				<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+				<script type="text/javascript">
+					var exampleCallback = function() {
+						console.log('Order complete!');
+					};
+
+          window.EBWidgets.createWidget({
+          // Required
+          widgetType: 'checkout',
+          eventId: '112892025086',
+          iframeContainerId: 'eventbrite-widget-container-112892025086',
+
+          // Optional
+          iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+          onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+          });
+        </script>
+			</section>
+
+
+
+			<section>
 						<div class="row">
 							<div class="6u 12u$(medium)">
 								<h5>Follow us</h5>
