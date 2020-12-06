@@ -1,15 +1,41 @@
 ---
 layout: page
-title: Telescope Lab
+title: Telescope Lab (On Demand)
 ---
 			<section>
-				<h4>Telescope Lab</h4>
+				<h4>Telescope Lab (On Demand)</h4>
 				<p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Do you have a telescope that you would like to learn how to operate or get help with setting up? Our staff members will be on hand at the start of each session to give you a one on one tutorial. Learn how to properly assemble and balance your telescope, align the finderscope and computer, collimate the mirrors, and choose the appropriate eyepieces. We can even help you learn how to find objects in the sky with your own telescope!</p>
 
 				<p>Since these events are weather dependent, on occasions we may need to postpone the event at short notice. If this happens, you will receive a txt message in your mobile, one hour prior to the event, and your booking will transferred to the next available session.</p>
 
-				<p>These sessions are for smaller groups; up to five people and one telescope per person. The Telescope Labs start earlier than the general observation sessions. We can help you set up and use your telescope before it gets too dark. Consult the schedule for start times.</p>
+				<p>These sessions are for smaller groups; up to five people and one telescope per person and scheduled on demand. The Telescope Labs start earlier than the general observation sessions. We can help you set up and use your telescope before it gets too dark. Consult the schedule for start times (<a href="mailto:skylabsnz@gmail.com" target="_blank">skylabsnz@gmail.com</a>).</p>
 			</section>
+			<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+		</script>
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="301432273723978"
+        logged_in_greeting="Hi! Telescope Labs are scheduled on demand. Do you want to book now?"
+        logged_out_greeting="Thanks for your interest in Telescope Labs. Clear Skies!">
+      </div>
+			<!-- Your Chat Plugin code -->
 			<section>
 				<div class="row">
 					<div class="6u 12u$(medium)">
@@ -49,10 +75,12 @@ title: Telescope Lab
 								</ul>
 							</div>
 							<div class="6u$ 12u$(medium)">
-								<p><center><a href="http://skylabs.eventbrite.com" target="_blank" class="button special">Book Now</a></center></p>
+								<p>Telescope Labs are scheduled on demand. Contact us to book an appointment: <a href="mailto:skylabsnz@gmail.com" target="_blank">skylabsnz@gmail.com</a></p>.
+								<p><center><a href="mailto:skylabsnz@gmail.com" target="_blank" class="button special">Book Appointment</a></center></p>
 							</div>
 						</div>
 			</section>
+			<!--
 			<section>
 				<h4>Upcoming Telescope Lab Sessions</h4>
 				<div style="width:100%; text-align:left;">
@@ -74,6 +102,7 @@ title: Telescope Lab
 					</script>
 				</div>
 			</section>
+			-->
 			<section>
 				<h4>Code of Conduct</h4>
 				In order to insure safety, protect equipment and to enhance everyone enjoyment, we ask that you follow the Code of Conduct:
